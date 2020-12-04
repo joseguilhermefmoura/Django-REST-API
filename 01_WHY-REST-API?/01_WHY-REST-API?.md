@@ -16,8 +16,11 @@ REST APIs are so commonplace in software development, it's an essencial skill fo
 
 So, let's think about an REST API this way:
 
-DJANGO ORM creates & manages database models & queries, then DJANGO serves React as a collection of static files when someone visits a URL, then React can GET, POST, etc data from the database via the REST API. So, the Django Rest Framework serializes data from the Django ORM and allow access/updates via a RESTful API
+DJANGO ORM creates & manages database models & queries, then DJANGO serves React as a collection of static files when someone visits a URL, then React can GET, POST, etc data from the database via the REST API. So, the Django Rest Framework serializes data from the Django ORM and allow access/updates via a RESTful API.
 
+That's what the image below represents:
+
+![Picture representing what was said above.](https://github.com/joseguilhermefmoura/Django-REST-API/blob/main/1.png?raw=true)
 
 That is: <mark>in web development, many applications rely on REST APIs to allow the front end to talk to the back end.</mark> If you're deploying a React application atop Django, for instance, you'll need an API to allow React to consume information from the database.
 
