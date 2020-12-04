@@ -20,7 +20,7 @@ DJANGO ORM creates & manages database models & queries, then DJANGO serves React
 
 That's what the image below represents:
 
-![Picture representing what was said above.](https://github.com/joseguilhermefmoura/Django-REST-API/blob/main/1.png?raw=true)
+![Picture representing what was said above.](https://github.com/joseguilhermefmoura/Django-REST-API/blob/master/01_WHY-REST-API%3F/1.png?raw=true)
 
 That is: <mark>in web development, many applications rely on REST APIs to allow the front end to talk to the back end.</mark> If you're deploying a React application atop Django, for instance, you'll need an API to allow React to consume information from the database.
 
